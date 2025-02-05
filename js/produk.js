@@ -66,7 +66,7 @@ const products = [
         "w-36 lg:w-80 rounded-lg shadow-md transform transition duration-300 hover:scale-105";
       productDiv.innerHTML = `
                       <div class="relative">
-                          <a href="/detail-produks">
+                          <div>
                               <div class="relative hover:opacity-100 bg-opacity-90 duration-300">
                                   <span class="absolute inset-0 z-10 bg-black text-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100">
                                       <h1 class="text-xs lg:text-xl tracking-wider font-bold">${product.name}</h1>
@@ -75,7 +75,7 @@ const products = [
                                       <img src="${product.img}" class="mx-auto" alt="${product.name}" />
                                   </div>
                               </div>
-                          </a>
+                          </div>
                       </div>
                   `;
       grid.appendChild(productDiv);
