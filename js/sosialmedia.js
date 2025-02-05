@@ -8,7 +8,7 @@ const socialMedias = [
   {
     url_image: "https://res.cloudinary.com/dnmkw2715/image/upload/v1668940545/zionexeonch/logo-ig-png-32464_aofsjj.png",
     nama_gambar: "Instagram",
-    link: "https://www.instagram.com/zionexeon.ch/",
+    link: "https://www.instagram.com/zegraphitech/",
     tombol: "Kunjungi",
   },
   {
