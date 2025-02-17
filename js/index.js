@@ -11,7 +11,7 @@ menuToggle.addEventListener("click", () => {
 });
 
 // GSAP animations
-gsap.from("h1, p, img", {
+gsap.from("h1, p, .image", {
   scrollTrigger: {
     trigger: "body",
     start: "top 80%",

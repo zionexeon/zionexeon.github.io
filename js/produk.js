@@ -31,22 +31,6 @@ const products = [
       name: "Website Mekar Laser",
       img: "https://res.cloudinary.com/dnmkw2715/image/upload/v1664627291/zionexeonch/akrilik_k3qlg8.png",
     },
-    {
-      name: "Artwork Ori Character",
-      img: "https://res.cloudinary.com/dnmkw2715/image/upload/v1664627285/zionexeonch/art4_cfazsk.jpg",
-    },
-    {
-      name: "Artwork Ori Character 2",
-      img: "https://res.cloudinary.com/dnmkw2715/image/upload/v1664627286/zionexeonch/art2_uhwyq6.jpg",
-    },
-    {
-      name: "Commission Fanart VTUBER",
-      img: "https://res.cloudinary.com/dnmkw2715/image/upload/v1664627282/zionexeonch/art3_oycqz2.jpg",
-    },
-    {
-      name: "Commission Fanart Anime",
-      img: "https://res.cloudinary.com/dnmkw2715/image/upload/v1664627283/zionexeonch/art5_vk6cjh.jpg",
-    },
   ];
   
   let currentPage = 1;
@@ -72,7 +56,7 @@ const products = [
                                       <h1 class="text-xs lg:text-xl tracking-wider font-bold">${product.name}</h1>
                                   </span>
                                   <div class="w-full flex flex-wrap content-center">
-                                      <img src="${product.img}" class="mx-auto" alt="${product.name}" />
+                                      <img src="${product.img}" class="image mx-auto" alt="${product.name}" />
                                   </div>
                               </div>
                           </div>
