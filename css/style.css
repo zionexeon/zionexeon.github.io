@@ -14,3 +14,21 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+.active {
+  background-color: #3a2c58; /* Warna latar belakang saat aktif */
+  color: white !important; /* Warna teks saat aktif */
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLeft 20s linear infinite; /* Sesuaikan durasi sesuai kebutuhan */
+}
